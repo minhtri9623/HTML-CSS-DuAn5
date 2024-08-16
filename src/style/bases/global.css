@@ -63,7 +63,7 @@ body {
 /* desktop */
 @media (min-width: 1440px) {
   .container {
-    max-width: 1170px;
+    max-width: 1140px;
     margin: 0 auto;
   }
 }
