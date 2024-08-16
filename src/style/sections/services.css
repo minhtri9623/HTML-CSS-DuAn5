@@ -71,14 +71,16 @@
 }
 
 .services__list {
-  display: flex;
-  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
   margin-top: 76px;
 }
 
 .services__item {
   width: 370px;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .services__item:hover {
